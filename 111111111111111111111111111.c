@@ -1,3 +1,4 @@
+
 #ifndef MENU_2048_H_INCLUDED
 #define MENU_2048_H_INCLUDED
 
@@ -32,7 +33,6 @@ void print_menu_inicial (char *str_inicial[], int x, int y)
     printf ("L  - carrega um jogo salvo. (Durante o jogo)");
     gotoxy (8, 19);
     printf ("R - Reset. (Durante o jogo)");
-    printf("teste");
     gotoxy (x - 1, y - 5*2); // Recolocamos o cursor na posição onde se encontra a seta por questão de estética
 }
 
